@@ -1,4 +1,4 @@
-html>
+<html>
 <head>
  <title>Tampil Data Matakuliah</title>
 </head>
@@ -17,21 +17,21 @@ html>
 				</td>
 			</tr>
 			<tr>
-				<th>Kode MTK</th>
-				<th>:</th>
+				<th>Kode Matakuliah</th>
+				<td>:</td>
 				<td>
 					<?= $kode; ?>
 				</td>
 			</tr>
 			<tr>
-				<td>Nama MTK</td>
+				<th>Nama Matakuliah</th>
 				<td>:</td>
 				<td>
 					<?= $nama; ?>
 				</td>
 			</tr>
 			<tr>
-				<td>SKS</td>
+				<th>SKS</th>
 				<td>:</td>
 				<td>
 					<?= $sks; ?>
